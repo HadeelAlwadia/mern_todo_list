@@ -1,0 +1,34 @@
+{
+  "name": "todo-list-bkend",
+  "version": "1.0.0",
+  "description": "create todo list data by using express and monoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HadeelAlwadia/todo_list_bkend.git"
+  },
+  "keywords": [
+    "express",
+    "todo-list",
+    "monoDB",
+    "mongosse"
+  ],
+  "author": "hadeel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HadeelAlwadia/todo_list_bkend/issues"
+  },
+  "homepage": "https://github.com/HadeelAlwadia/todo_list_bkend#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongodb": "^6.1.0",
+    "mongoose": "^7.5.2",
+    "nodemon": "^3.0.1"
+  }
+}
